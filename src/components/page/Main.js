@@ -9,12 +9,13 @@ class Main extends React.Component{
     render(){
         return(
             <Switch>
-                <Route exact path="/" Component={Home}/>
-                <Route exact path="/home" Component={Home}/>
-                <Route exact path="/profile" Component={Profile}/>
-                <Route exact path="/contact" Component={Contact}/>
-                <Route exact path="/portofolio" Component={Portofolio}/>
+                <Route exact path="/" component={Home}/>
+                <Route  path="/home" component={Home}/>
+                <Route  path="/profile" component={Profile}/>
+                <Route  path="/contact" component={Contact}/>
+                <Route  path="/portofolio" component={Portofolio}/>
             </Switch>
         )
     }
 }
+export default Main;

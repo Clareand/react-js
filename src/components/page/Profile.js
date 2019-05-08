@@ -4,7 +4,7 @@ class Profile extends React.Component{
     render(){
         return(
             <div>
-                <h1>Ini Contact</h1>
+                <h1>Ini Profile</h1>
             </div>
         )
     }

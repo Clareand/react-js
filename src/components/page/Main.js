@@ -13,7 +13,7 @@ class Main extends React.Component{
                 <Route  path="/home" component={Home}/>
                 <Route  path="/profile" component={Profile}/>
                 <Route  path="/contact" component={Contact}/>
-                <Route  path="/portofolio" component={Portofrlid}/>
+                <Route  path="/portofolio" component={Portofolio}/>
             </Switch>
         )
     }

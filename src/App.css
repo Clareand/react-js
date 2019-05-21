@@ -2,7 +2,92 @@
 .MuiToolbar-root-40 > a > h6{
   color: white;
 }
+.MuiTypography-h6-176{
+  color:white !important;
+}
 
 .MuiButton-label-99{
   color: white;
 }
+
+.white{
+  color:#fff;
+  text-align: center;
+  font-family:;
+}
+
+.middle{
+  margin-top:4% !important;
+}
+
+.line{
+  width: 30%;
+}
+.square{
+  border: 1px solid #fff;
+  padding: 1rem;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 1rem;
+}
+
+.square img{
+  height: 100%;
+}
+a{
+  text-decoration: none;
+  color: #ffffff!important;
+}
+
+a:hover{
+  text-decoration: none !important;
+}
+
+.bg-dark.cs{
+  background-color: #a6523c !important;
+  font-size: 15px;
+}
+
+.container.top{
+  margin-top: 3rem;
+}
+
+.navbar-toggler{
+  background-color: #ffffff7a !important;
+}
+
+.card{
+}
+
+body, html {
+  height: 100%;
+  }
+  .bg {
+  background-image: url("../src/components/image/sevenKingdom.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  .overlay{
+    color: #fff;
+    height: 100%;
+    background-color:#000000b8;
+  }
+
+  .card-text{
+    font-size: 15px !important;
+  }
+
+
+  
+  /* test */
+  @font-face {
+    font-family: 'Roboto';
+    src:url('components/font/webFonts/roboto_regular_macroman/Roboto-Regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+

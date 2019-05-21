@@ -1,0 +1,78 @@
+import React from 'react';
+import PropTypes from 'prop-types';
+import { withStyles } from '@material-ui/core/styles';
+import Paper from '@material-ui/core/Paper';
+import Grid from '@material-ui/core/Grid';
+import Sigil from '../image/sevenKingdom.jpg';
+import Dragon from '../image/icon/dragon.png';
+import Twitter from '../image/icon/twitter.png';
+import Ig from '../image/icon/instagram.png';
+
+const styles = theme => ({
+  root: {
+    flexGrow: 1,
+    height:'100vh',
+    backgroundImage:`url(${Sigil})`,
+    backgroundSize: 'cover',
+    overflow: 'hidden',
+  },
+  overlay:{
+      height:'100%',
+      backgroundColor: 'rgba(0, 0, 0, 0.92)',
+  }
+});
+
+function CenteredGrid(props) {
+  const { classes } = props;
+
+  return (
+    <div className={classes.root} >
+      <div className={classes.overlay}>
+      <Grid container spacing={12}>
+        <Grid item xs={3}></Grid>
+            <Grid item xs={6} className="middle">
+                <h1 className="white">
+                  I'm Daenerys Stormborn
+                </h1>
+                <h4 className="white">
+                of the House Targaryen, the First of Her Name, Queen of the Andals,
+                the Rhoynar and the First Men, Lady of the Seven Kingdoms and Protector of the Realm,
+                Lady of Dragonstone, Queen of Meereen, Khaleesi of the Great Grass Sea, the Unburnt, 
+                Breaker of Chains and Mother of Dragons.
+                </h4>
+                <hr className="line"></hr>
+                <br></br>
+                <Grid container spacing={12}>
+                  <Grid item xs={3}></Grid>
+                  <Grid item xs={2}>
+                    <div className="square">
+                      <img src={Dragon}></img>
+                    </div>
+                  </Grid>
+                  <Grid item xs={2}>
+                    <div className="square">
+                      <img src={Twitter}></img>
+                    </div>
+                  </Grid>
+                  <Grid item xs={2}>
+                    <div className="square">
+                      <img src={Ig}></img>
+                    </div>
+                  </Grid>
+                  <Grid item xs={3}></Grid>
+                </Grid>
+                
+                
+            </Grid>
+            <Grid item xs={3}></Grid>
+      </Grid>
+      </div>
+    </div>
+  );
+}
+
+CenteredGrid.propTypes = {
+  classes: PropTypes.object.isRequired,
+};
+
+export default withStyles(styles)(CenteredGrid);

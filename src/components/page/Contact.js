@@ -10,15 +10,15 @@ class Contact extends React.Component{
                 <img className="profile-pic" src={Profile} alt />
               </div>
               <div className="nine columns main-col">
-                <h2>About Daenerys</h2>
+                <h2>About Me</h2>
                 <p>
-                Queen Daenerys is one of the last two surviving members (along with her older brother, Viserys) of the House Targaryen.
-                She is forced to marry Dothraki horselord Khal Drogo in exchange for an army for Viserys, who is to return to Westeros and 
-                recapture the Iron Throne. Her brother loses the ability to control her as Daenerys finds herself adapting to life with the
-                khalasar and emerges as strong, confident and courageous. She becomes the heir of the Targaryen dynasty after her brother's 
-                death and plans to reclaim the Iron Throne herself, seeing it as her birthright. A pregnant Daenerys loses her husband and child, 
-                but soon helps hatch three dragons from their eggs, which regard her as their mother, providing her with a tactical advantage and prestige. 
-                Over time, she struggles to maintain control of her dragons
+                I'm Daenerys Stomborn, one of the last two surviving members (along with My older brother, Viserys) of the House Targaryen.
+                I had forced to marry Dothraki horselord Khal Drogo in exchange for an army for Viserys, who is to return to Westeros and 
+                recapture the Iron Throne. My brother loses the ability to control me as Khaleesi that find myself adapting to life with the
+                khalasar and emerges as strong, confident and courageous. I become the heir of the Targaryen dynasty after My brother
+                death and plans to reclaim the Iron Throne Myself, seeing it as My birthright. I lose My husband and child, 
+                but soon helps hatch three dragons from their eggs, which regard myself as their mother, providing myself with a tactical advantage and prestige. 
+                Over time, I'm struggles to maintain control of my dragons
                 </p>
                 <div className="row">
                   <div className="columns contact-details">

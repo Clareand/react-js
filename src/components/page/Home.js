@@ -7,7 +7,7 @@ class Home extends Component {
       <div className="row banner">
         <div className="banner-text">
           <h1 className="responsive-headline">I'm Daenerys Stomborn</h1>
-          <h3><span>of the House Targaryen, the First of Her Name, Queen of the Andals,
+          <h3><span>of the House Targaryen, the First of My Name, Queen of the Andals,
                 the Rhoynar and the First Men, Lady of the Seven Kingdoms and Protector of the Realm,
                 Lady of Dragonstone, Queen of Meereen, Khaleesi of the Great Grass Sea, the Unburnt, 
                 Breaker of Chains and Mother of Dragons.</span></h3>

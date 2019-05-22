@@ -13,7 +13,6 @@
 .white{
   color:#fff;
   text-align: center;
-  font-family:;
 }
 
 .middle{
@@ -37,6 +36,10 @@
 a{
   text-decoration: none;
   color: #ffffff!important;
+}
+
+#contact p{
+  font-size: 2rem !important;
 }
 
 a:hover{
@@ -80,6 +83,12 @@ body, html {
   }
 
 
+  @media (min-width: 720px){
+    .row.cs {
+      margin-left: 18rem !important;
+    }    
+  }
+
   
   /* test */
   @font-face {
@@ -88,6 +97,8 @@ body, html {
     font-weight: normal;
     font-style: normal;
 }
+
+
 
 
 

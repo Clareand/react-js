@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom';
 class MyBar extends React.Component {
     render() {
         return (
-            <nav id="nav-wrap">
+            <Navbar id="nav-wrap">
                 <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
                 <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
                 <ul id="nav" className="nav">
@@ -30,7 +30,7 @@ class MyBar extends React.Component {
                     </Link>
                 </li>
                 </ul> {/* end #nav */}
-            </nav>
+            </Navbar>
         );
     }
 }

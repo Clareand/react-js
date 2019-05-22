@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import {Container,H1} from 'react-bootstrap';
 
 class Home extends Component {
   render() {
     return (
       <header id="home">
-      <div className="row banner">
+      <Container className="row banner">
         <div className="banner-text">
           <h1 className="responsive-headline">I'm Daenerys Stomborn</h1>
           <h3><span>of the House Targaryen, the First of My Name, Queen of the Andals,
@@ -13,7 +14,7 @@ class Home extends Component {
                 Breaker of Chains and Mother of Dragons.</span></h3>
           <hr />
         </div>
-      </div>
+      </Container>
     </header> 
     );
   }

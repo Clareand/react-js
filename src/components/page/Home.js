@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Container,H1} from 'react-bootstrap';
+import {Container,} from 'react-bootstrap';
 
 class Home extends Component {
   render() {
@@ -7,7 +7,7 @@ class Home extends Component {
       <header id="home">
       <Container className="row banner">
         <div className="banner-text">
-          <h1 className="responsive-headline">I'm Daenerys Stomborn</h1>
+          <h1 className="responsive-headline">I'm Daenerys Stormborn</h1>
           <h3><span>of the House Targaryen, the First of My Name, Queen of the Andals,
                 the Rhoynar and the First Men, Lady of the Seven Kingdoms and Protector of the Realm,
                 Lady of Dragonstone, Queen of Meereen, Khaleesi of the Great Grass Sea, the Unburnt, 

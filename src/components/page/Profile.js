@@ -84,12 +84,12 @@ class Profile extends React.Component{
                 </p>
                 <div className="bars">
                   <ul className="skills">
-                    <li><span className="bar-expand photoshop" /><em>Execute Enemy</em></li>
+                    <li><span className="bar-expand photoshop" /><em>Execute Traitor</em></li>
                     <li><span className="bar-expand illustrator" /><em>Burn People</em></li>
                     <li><span className="bar-expand wordpress" /><em>Show Mercy</em></li>
                     <li><span className="bar-expand css" /><em>Ride A Dragon</em></li>
                     <li><span className="bar-expand html5" /><em>Fight Dead Army</em></li>
-                    <li><span className="bar-expand jquery" /><em>Love with Nephew</em></li>
+                    <li><span className="bar-expand jquery" /><em>Friendzoning People</em></li>
                   </ul>
                 </div>{/* end skill-bars */}
               </div> {/* main-col end */}

@@ -757,6 +757,15 @@ properly.
 
    .row { width: auto; }
 
+   #nav-wrap > a.mobile-btn{
+      top: -9.5rem;
+   }
+
+   #nav-wrap:target > ul#nav{
+      margin-left: -3rem !important;
+      margin-top: -2rem !important;
+   }
+
 }
 
 /* larger screens

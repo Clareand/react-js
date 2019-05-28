@@ -20,228 +20,137 @@ const styles = {
 class Portofolio extends React.Component{
     render(){
         return (    
-            <section id="portfolio">
+          <section id="portfolio">
+            <h1>Check Out Some of My Works.</h1>
             <div className="row cs">
-              <div className="twelve columns collapsed">
-                <h1>Check Out Some of My Works.</h1>
-                {/* portfolio-wrapper */}
-                <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-quarters cf">
-                  <div className="columns portfolio-item">
-                    <div className="item-wrap">
-                      <a href="#modal-01" title>
-                        <img alt src="images/modals/egg.png" />
-                        <div className="overlay">
-                          <div className="portfolio-item-meta">
-                            <h5>Dragon Egg</h5>
-                            <p>Marriage Gift</p>
-                          </div>
-                        </div>
-                        <div className="link-icon"><i className="icon-plus" /></div>
-                      </a>
-                    </div>
-                  </div> {/* item end */}
-                  <div className="columns portfolio-item">
-                    <div className="item-wrap">
-                      <a href="#modal-02" title>
-                        <img alt src="images/modals/boy.png" />
-                        <div className="overlay">
-                          <div className="portfolio-item-meta">
-                            <h5>Little Khal</h5>
-                            <p>Baby Shower</p>
-                          </div>
-                        </div>
-                        <div className="link-icon"><i className="icon-plus" /></div>
-                      </a>
-                    </div>
-                  </div> {/* item end */}
-                  <div className="columns portfolio-item">
-                    <div className="item-wrap">
-                      <a href="#modal-03" title>
-                        <img alt src="images/modals/drogon.png" />
-                        <div className="overlay">
-                          <div className="portfolio-item-meta">
-                            <h5>Drogon The Dragon</h5>
-                            <p>Dragons</p>
-                          </div>
-                        </div>
-                        <div className="link-icon"><i className="icon-plus" /></div>
-                      </a>
-                    </div>
-                  </div> {/* item end */}
-                  <div className="columns portfolio-item">
-                    <div className="item-wrap">
-                      <a href="#modal-04" title>
-                        <img alt src="images/modals/dracarys.png" />
-                        <div className="overlay">
-                          <div className="portfolio-item-meta">
-                            <h5>Burn Down Night King</h5>
-                            <p>Long Night</p>
-                          </div>
-                        </div>
-                        <div className="link-icon"><i className="icon-plus" /></div>
-                      </a>
-                    </div>
-                  </div> {/* item end */}
-                  <div className="columns portfolio-item">
-                    <div className="item-wrap">
-                      <a href="#modal-05" title>
-                        <img alt src="images/modals/sansa.png" />
-                        <div className="overlay">
-                          <div className="portfolio-item-meta">
-                            <h5>Lady Of Winterfell</h5>
-                            <p>Jon's Sister</p>
-                          </div>
-                        </div>
-                        <div className="link-icon"><i className="icon-plus" /></div>
-                      </a>
-                    </div>
-                  </div> {/* item end */}
-                  <div className="columns portfolio-item">
-                    <div className="item-wrap">
-                      <a href="#modal-06" title>
-                        <img alt src="images/modals/ashes.png" />
-                        <div className="overlay">
-                          <div className="portfolio-item-meta">
-                            <h5>Queen Of Westeros</h5>
-                            <p>Iron Throne</p>
-                          </div>
-                        </div>
-                        <div className="link-icon"><i className="icon-plus" /></div>
-                      </a>
-                    </div>
-                  </div> {/* item end */}
-                  <div className="columns portfolio-item">
-                    <div className="item-wrap">
-                      <a href="#modal-07" title>
-                        <img alt src="images/modals/burn.png" />
-                        <div className="overlay">
-                          <div className="portfolio-item-meta">
-                            <h5>Burn City Down</h5>
-                            <p>Kings Landing</p>
-                          </div>
-                        </div>
-                        <div className="link-icon"><i className="icon-plus" /></div>
-                      </a>
-                    </div>
-                  </div> {/* item end */}
-                  <div className="columns portfolio-item">
-                    <div className="item-wrap">
-                      <a href="#modal-08" title>
-                        <img alt src="images/modals/king.png" />
-                        <div className="overlay">
-                          <div className="portfolio-item-meta">
-                            <h5>Queen King</h5>
-                            <p>Targaryen Blood</p>
-                          </div>
-                        </div>
-                        <div className="link-icon"><i className="icon-plus" /></div>
-                      </a>
-                    </div>
-                  </div>  {/* item end */}
-                </div> {/* portfolio-wrapper end */}
-              </div> {/* twelve columns end */}
-              {/* Modal Popup
-              --------------------------------------------------------------- */}
-              <div id="modal-01" className="popup-modal mfp-hide">
-                <img className="scale-with-grid" src="images/egg.png" alt />
-                <div className="description-box">
-                  <h4>Precious Children</h4>
-                  <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-                  <span className="categories"><i className="fa fa-tag" />Branding, Webdesign</span>
+              <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-quarters cf">
+                <div className="columns portfolio-item">
+                  <div className="item-wrap">
+                    <Card>
+                      <Card.Img variant="top" src="images/modals/dragonEggs.jpg"/>
+                      <Card.Body>
+                        <Card.Title>
+                          A Gift From Valyria
+                        </Card.Title>
+                        <Card.Text>
+                          Gift From Ilyrio,Dragon Eggs that turns into rock after hundred of years.
+                        </Card.Text>
+                      </Card.Body>
+                    </Card>
+                  </div>
                 </div>
-                <div className="link-box">
-                  <a href="#">Details</a>
-                  <a className="popup-modal-dismiss">Close</a>
+                <div className="columns portofolio-item">
+                  <div className="item-wrap">
+                  <Card>
+                      <Card.Img variant="top" src="images/modals/boy.png"/>
+                      <Card.Body>
+                        <Card.Title>
+                          Little Khal
+                        </Card.Title>
+                        <Card.Text>
+                          Never Let A witch to live among you, or a curse will dance with a fire
+                        </Card.Text>
+                      </Card.Body>
+                    </Card>
+                  </div>
                 </div>
-              </div>{/* modal-01 End */}
-              <div id="modal-02" className="popup-modal mfp-hide">
-                <img className="scale-with-grid" src="images/boy.png" alt />
-                <div className="description-box">
-                  <h4>True Heir</h4>
-                  <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-                  <span className="categories"><i className="fa fa-tag" />Branding, Web Development</span>
+
+                <div className="columns portofolio-item">
+                  <div className="item-wrap">
+                  <Card>
+                      <Card.Img variant="top" src="images/modals/drogon.png"/>
+                      <Card.Body>
+                        <Card.Title>
+                          Unburn
+                        </Card.Title>
+                        <Card.Text>
+                          Little Dragons cracking the egg by the fire from R'llhor to burn the traitor
+                        </Card.Text>
+                      </Card.Body>
+                    </Card>
+                  </div>
                 </div>
-                <div className="link-box">
-                  <a href="#">Details</a>
-                  <a className="popup-modal-dismiss">Close</a>
+                <div className="columns portofolio-item">
+                  <div className="item-wrap">
+                  <Card>
+                      <Card.Img variant="top" src="images/modals/dracarys.png"/>
+                      <Card.Body>
+                        <Card.Title>
+                          A song of Fire and Ice
+                        </Card.Title>
+                        <Card.Text>
+                          Dragon breath never burn true cold, only steel from the story 
+                        </Card.Text>
+                      </Card.Body>
+                    </Card>
+                  </div>
                 </div>
-              </div>{/* modal-02 End */}
-              <div id="modal-03" className="popup-modal mfp-hide">
-                <img className="scale-with-grid" src="images/drogon.png" alt />
-                <div className="description-box">
-                  <h4>Beloved Dragon</h4>
-                  <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-                  <span className="categories"><i className="fa fa-tag" />Branding</span>
+                <div className="columns portofolio-item">
+                  <div className="item-wrap">
+                  <Card>
+                      <Card.Img variant="top" src="images/modals/sansa.png"/>
+                      <Card.Body>
+                        <Card.Title>
+                          North Remembers
+                        </Card.Title>
+                        <Card.Text>
+                          A Northener Lady never bend a knee to a foreigner
+                        </Card.Text>
+                      </Card.Body>
+                    </Card>
+                  </div>
                 </div>
-                <div className="link-box">
-                  <a href="#">Details</a>
-                  <a className="popup-modal-dismiss">Close</a>
+                <div className="columns portofolio-item">
+                  <div className="item-wrap">
+                  <Card>
+                      <Card.Img variant="top" src="images/modals/burn.png"/>
+                      <Card.Body>
+                        <Card.Title>
+                          Bell
+                        </Card.Title>
+                        <Card.Text>
+                          Don't let the innocent makes weakness stronger
+                        </Card.Text>
+                      </Card.Body>
+                    </Card>
+                  </div>
                 </div>
-              </div>{/* modal-03 End */}
-              <div id="modal-04" className="popup-modal mfp-hide">
-                <img className="scale-with-grid" src="images/dracarys.png" alt />
-                <div className="description-box">
-                  <h4>Burn Down Night King</h4>
-                  <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-                  <span className="categories"><i className="fa fa-tag" />Photography</span>
+                <div className="columns portofolio-item">
+                  <div className="item-wrap">
+                  <Card>
+                      <Card.Img variant="top" src="images/modals/ashes.png"/>
+                      <Card.Body>
+                        <Card.Title>
+                          Queen of Ashes
+                        </Card.Title>
+                        <Card.Text>
+                          Ashes and snow is sign for a victory
+                        </Card.Text>
+                      </Card.Body>
+                    </Card>
+                  </div>
                 </div>
-                <div className="link-box">
-                  <a href="#">Details</a>
-                  <a className="popup-modal-dismiss">Close</a>
+                <div className="columns portofolio-item">
+                  <div className="item-wrap">
+                  <Card>
+                      <Card.Img variant="top" src="images/modals/king.png"/>
+                      <Card.Body>
+                        <Card.Title>
+                          Love
+                        </Card.Title>
+                        <Card.Text>
+                          Truth never let love fading, killing is the best words
+                        </Card.Text>
+                      </Card.Body>
+                    </Card>
+                  </div>
                 </div>
-              </div>{/* modal-04 End */}
-              <div id="modal-05" className="popup-modal mfp-hide">
-                <img className="scale-with-grid" src="images/sansa.png" alt />
-                <div className="description-box">
-                  <h4>Nephew Sister</h4>
-                  <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-                  <span className="categories"><i className="fa fa-tag" />Branding, Webdesign</span>
-                </div>
-                <div className="link-box">
-                  <a href="#">Details</a>
-                  <a className="popup-modal-dismiss">Close</a>
-                </div>
-              </div>{/* modal-05 End */}
-              <div id="modal-06" className="popup-modal mfp-hide">
-                <img className="scale-with-grid" src="images/ashes.png" alt />
-                <div className="description-box">
-                  <h4>Queen Of Westeros</h4>
-                  <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-                  <span className="categories"><i className="fa fa-tag" />Photography</span>
-                </div>
-                <div className="link-box">
-                  <a href="#">Details</a>
-                  <a className="popup-modal-dismiss">Close</a>
-                </div>
-              </div>{/* modal-06 End */}
-              <div id="modal-07" className="popup-modal mfp-hide">
-                <img className="scale-with-grid" src="images/burn.png" alt />
-                <div className="description-box">
-                  <h4>Burn The Innocent</h4>
-                  <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-                  <span className="categories"><i className="fa fa-tag" />Branding, Illustration</span>
-                </div>
-                <div className="link-box">
-                  <a href="#">Details</a>
-                  <a className="popup-modal-dismiss">Close</a>
-                </div>
-              </div>{/* modal-07 End */}
-              <div id="modal-08" className="popup-modal mfp-hide">
-                <img className="scale-with-grid" src="images/king.png" alt />
-                <div className="description-box">
-                  <h4>My Love, Jon</h4>
-                  <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-                  <span className="categories"><i className="fa fa-tag" />Webdesign, Photography</span>
-                </div>
-                <div className="link-box">
-                  <a href="#">Details</a>
-                  <a className="popup-modal-dismiss">Close</a>
-                </div>
-              </div>{/* modal-01 End */}
-            </div> {/* row End */}
+              </div>
+            </div>
           </section>
         );
     }
   
 }
 export default withStyles(styles)(Portofolio);
+
